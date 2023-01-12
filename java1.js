@@ -422,20 +422,20 @@
 //     console.log(list)}
 // }
 
-let numbers = [1,2,3,4,5,6]
-let userName = 'Rapheal Ogunnaike'
-let maximum = Math.max(...numbers)
-console.log(...numbers)
-console.log(...userName)
+// let numbers = [1,2,3,4,5,6]
+// let userName = 'Rapheal Ogunnaike'
+// let maximum = Math.max(...numbers)
+// console.log(...numbers)
+// console.log(...userName)
 
 
-console.log(maximum)
+// console.log(maximum)
 
-let class1 = ['jama', 'mark']
-let class2 = ['maga','raga']
+// let class1 = ['jama', 'mark']
+// let class2 = ['maga','raga']
 
-class1.push(...class2)
-console.log(class1)
+// class1.push(...class2)
+// console.log(class1)
 
 // let a=1;
 // let b=2;
@@ -516,21 +516,21 @@ console.log(class1)
 //     document.getElementById('laba').innerHTML = output;
 // }
 
-sum(11, 10 , displayDOM, displayConsole);
+// sum(11, 10 , displayDOM, displayConsole);
 
-function sum(x,y, callback, callback2){
-  let  result = x + y;
-    callback(result);
-    callback2(result);
+// function sum(x,y, callback, callback2){
+//   let  result = x + y;
+//     callback(result);
+//     callback2(result);
     
-}
+// }
 
-function displayDOM(op){
-    document.getElementById('laba').innerHTML = op;
-}
-function displayConsole(op){
-    console.log(op)
-}
+// function displayDOM(op){
+//     document.getElementById('laba').innerHTML = op;
+// }
+// function displayConsole(op){
+//     console.log(op)
+// }
 
 // let a=1;
 // let b = 2 ;
@@ -557,3 +557,217 @@ function displayConsole(op){
 //    return console.log(totalx)
 // }
 
+// let total = sum(2,3);
+// displayConsole(total)
+// displayDOM(total)
+
+// function sum(x,y){
+//     let result = x + y;
+//     return result;
+// }
+// function displayConsole(opt){
+//     console.log(opt)
+// }
+// function displayDOM(opt){
+//     document.getElementById('laba').innerHTML = opt
+// }
+
+
+// let students =['daniel', 'bola', 'segun'];
+// students.forEach(capitalize);
+
+// function capitalize(element, index, array){
+//     array[index] = element[0].toUpperCase() 
+//     + element.substring(1);
+// }
+
+// console.log(students[1])
+
+
+// addx(8, 10 , idom , idconsole );
+
+// function addx(a,b, kallback , kallback2){
+//     let resultx = a*b ;    
+//     kallback(resultx);
+//     kallback2(resultx);
+// }
+
+// function idom(income){
+//     document.getElementById('laba').innerHTML = income
+// }
+// function idconsole(income){
+//     console.log(income)
+// }
+
+// let k = window.prompt('enter your first number' );
+// k =Number(k);
+// let tk = window.prompt('enter your first number' );
+// tk =Number(tk);
+
+// goom(k , tk, ckall, ckall1);
+// function goom(x,y, kall , kall1){
+//     let mass = Math.sqrt(Math.pow(x,2) + 
+//     Math.pow(y,2));
+//     kall(mass);
+//     kall1(mass);
+// }
+
+// function ckall(po){
+//     console.log(po);
+// }
+// function ckall1(po){
+//     document.getElementById('laba').innerHTML = po;
+// }
+
+// let studentx = ['adamu', 'basser' , 'cassava'];
+// studentx.forEach(xapitalize);
+// studentx.forEach(print);
+
+// function xapitalize(element, index, y){
+//     y[index] = element[0].toUpperCase() + element.substring(1);
+
+// }
+// function print(element){
+
+//     console.log(element)
+// }
+
+
+// let prime = [2, 5 , 10 ,  20];
+// prime.forEach(mtx);
+// prime.forEach(rint);
+
+// function mtx(k, l, n){
+//     n[l] = k[0]*3;
+// }
+// function rint(k){
+//     console.log(k)
+// // }
+// let  akawe = [2, 4, 6, 7];
+// akawe.forEach(zilox);
+// akawe.forEach(ink);
+
+// function zilox(element, index, array){
+//     array[index]= Math.pow(element,2);
+    
+// }
+
+// function ink (element){
+//     console.log(element);
+// }
+
+// let number = [8, 9, 10];
+// let numbers = number.map(umber);
+
+// numbers.forEach(umb);
+
+// function umber(element){
+//     return Math.pow(element,3)
+// }
+
+// function umb(element){
+//     console.log(element);
+// }
+
+// let cap = ['jimoh', 'rapha', 'bukola'];
+// cap.forEach(rint);
+// cap.forEach(print);
+
+// function rint (element, index, array){
+//     array[index] = element[1].toUpperCase() + element.substring(0);
+// }
+// function print(element){
+//     console.log(element);
+// }
+// let capx = [17, 19 ,20];
+// let capxx = capx.map(rintx);
+// capxx.forEach(rintx);
+// capxx.forEach(printx);
+
+
+
+// function rintx (element){
+//     return Math.pow(element,3)
+// }
+// function printx(element){
+//     console.log(element);
+// }
+
+// let size = [2, 3, 4, 5,6];
+// let newSize = size.filter(cSize);
+
+// newSize.forEach(rint);
+
+
+
+// function cSize (checkSize){
+//     return checkSize >=3;
+// }
+
+// function rint (element){
+//     console.log(element)
+// }
+
+// let price = [10, 20, 8, 21 , 40, 60, 16, 5, 1, 7,18, 7770, 32]
+
+// let nPrice = price.filter(xPrice);
+// let total1 = price.reduce(checkout);
+// let total2 = nPrice.reduce(checkout)
+
+// nPrice.forEach(toPrint);
+// toPrint2(total1);
+// toPrint3(total2);
+
+// function checkout(total1, element){
+//     return total1 + element ;
+// }
+
+// function xPrice(e){
+//     return e <= 40
+// }
+
+
+// function toPrint(e){
+//     console.log(e)
+// }
+// function toPrint2(total1){
+//     console.log(`The total is: $${total1}`)
+// }
+// function toPrint3(total2){
+//     console.log(`The total is: $${total2}`)
+// }
+
+// let  weight = [12, 14, 17, 20, 50, 34]
+// let  nWeight = weight.filter(size);
+// let rWeight = weight.reduce(rsize);
+// let sWeight = weight.sort(aascending);
+// nWeight.forEach(display);
+// displayx(rWeight);
+// sWeight.forEach(asending);
+
+// function rsize(totalo, e){
+//     return totalo + e
+// }
+
+// function size(e){
+//     return e  >  14
+// }
+// function display(e){
+//     console.log(e)
+// }
+// function displayx(totalo){
+//     console.log(`The total price is $${totalo}`)
+// }
+
+// function aascending(x,y){
+//     return y-x;
+// }
+// function asending(element){
+//     console.log(element)
+// }\
+
+
+
+let grade = [100, 80, 90, 34, 23];
+
+grade.sort(ascending);
